@@ -1,0 +1,31 @@
+.aside__listado-izquierdo {
+  width: 220px;
+  float: right;
+  &__cabecera-listado {
+    width: 220px;
+    border-bottom: 1px solid gray;
+  }
+
+  .tags {
+    border-bottom: 1px solid gray;
+    ul {
+      padding: 0;
+      list-style: none;
+
+      li {
+        padding: 2px 2px;
+        background-color: steelblue;
+        margin-right: 1px;
+        color: white;
+      }
+    }
+  }
+}
+
+.noticias-destacadas {
+  margin-bottom: 50px;
+  img {
+    width: 220px;
+    height: 200px;
+  }
+}

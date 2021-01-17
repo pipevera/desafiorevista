@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: monospace; }
+
+.navbar__menu ul {
+  text-align: right;
+  list-style: none; }
+.navbar__menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none; }
+.navbar__menu .input-menu {
+  border-radius: 30px; }
+
+.aside__listado-izquierdo {
+  width: 220px;
+  float: right; }
+  .aside__listado-izquierdo__cabecera-listado {
+    width: 220px;
+    border-bottom: 1px solid gray; }
+  .aside__listado-izquierdo .tags {
+    border-bottom: 1px solid gray; }
+    .aside__listado-izquierdo .tags ul {
+      padding: 0;
+      list-style: none; }
+      .aside__listado-izquierdo .tags ul li {
+        padding: 2px 2px;
+        background-color: steelblue;
+        margin-right: 1px;
+        color: white; }
+
+.noticias-destacadas {
+  margin-bottom: 50px; }
+  .noticias-destacadas img {
+    width: 220px;
+    height: 200px; }
+
+.main {
+  width: 960px;
+  margin: 0 auto; }
+  .main__listad-noticias {
+    width: 700px;
+    float: left; }
+
+.noticia {
+  width: 210px;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer; }
+  .noticia .cuerpo p {
+    padding: 5px 10px; }
+    .noticia .cuerpo p img {
+      width: 210px;
+      height: 300px; }
+
+.footer {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center; }
+
+.grid {
+  display: grid;
+  width: 960px;
+  margin: 0 auto; }
+
+.navbar__menu {
+  width: 960px;
+  padding: 10px;
+  border-bottom: 1px solid gray; }
+
+.navbar__logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block; }
+
+.nav__lista {
+  display: inline-block;
+  width: 840px;
+  text-align: right; }
+
+.newsletter__content {
+  width: 960px;
+  background-color: #f2f4f5;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .newsletter__content h2 {
+    font-size: 24px; }
+  .newsletter__content__group input, .newsletter__content button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px; }
+  .newsletter__content button {
+    background-color: coral;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */

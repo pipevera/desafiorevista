@@ -1,0 +1,23 @@
+.main {
+  width: 960px;
+  margin: 0 auto;
+  &__listad-noticias {
+    width: 700px;
+    float: left;
+  }
+}
+
+.noticia {
+  width: 210px;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  .cuerpo p {
+    padding: 5px 10px;
+    img {
+      width: 210px;
+      height: 300px;
+    }
+  }
+  
+}
