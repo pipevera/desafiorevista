@@ -14,22 +14,23 @@ body {
 .navbar__menu .input-menu {
   border-radius: 30px; }
 
+.tags {
+  border-bottom: 1px solid gray; }
+  .tags ul {
+    padding: 0;
+    list-style: none; }
+    .tags ul li {
+      padding: 2px 2px;
+      background-color: steelblue;
+      margin-right: 1px;
+      color: white; }
+
 .aside__listado-izquierdo {
   width: 220px;
   float: right; }
   .aside__listado-izquierdo__cabecera-listado {
     width: 220px;
     border-bottom: 1px solid gray; }
-  .aside__listado-izquierdo .tags {
-    border-bottom: 1px solid gray; }
-    .aside__listado-izquierdo .tags ul {
-      padding: 0;
-      list-style: none; }
-      .aside__listado-izquierdo .tags ul li {
-        padding: 2px 2px;
-        background-color: steelblue;
-        margin-right: 1px;
-        color: white; }
 
 .noticias-destacadas {
   margin-bottom: 50px; }
